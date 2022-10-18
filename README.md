@@ -29,7 +29,7 @@ pip install scib
 # You can install addtional packages: https://scib.readthedocs.io/en/latest/index.html
 
 # Install ipykernel, if you want use jupyer notebook
-conda install ypykernel
+conda install ipykernel
 
 # (option) 
 python -m ipykernel install --user --name scCobra --display-name "scCobra"
