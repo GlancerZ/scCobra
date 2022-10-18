@@ -26,7 +26,7 @@ conda install -c conda-forge rpy2
 
 # Install scib
 pip install scib
-# scib has some additional packages (Harmony,scVI), you can follow scib package: https://scib.readthedocs.io/en/latest/index.html
+# You can install addtional packages: https://scib.readthedocs.io/en/latest/index.html
 
 # Install ipykernel, if you want use jupyer notebook
 conda install ypykernel
@@ -35,3 +35,6 @@ conda install ypykernel
 python -m ipykernel install --user --name scCobra --display-name "scCobra"
 
 ``` 
+
+
+**Step 2**: Clone This Repo
