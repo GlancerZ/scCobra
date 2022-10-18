@@ -9,5 +9,29 @@ scCobra is a method for integrating multi-batch, multi-platform single-cell data
 **Step 1**: Create a conda environment for scCobra
 
 ```bash
+# Recommend you to use python above 3.8
 conda create -n scCobra python=3.8
+conda activate scCobra
+
+# Install scanpy
+pip install scanpy==1.9.1
+
+# Install pytorch, choose profer version pytorch
+# pytorch installation reference: https://pytorch.org/get-started/locally/
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+
+# Install R4.1, rpy2
+conda install r-base=4.1.3
+conda install -c conda-forge rpy2
+
+# Install scib
+pip install scib
+# scib has some additional packages (Harmony,scVI), you can follow scib package: https://scib.readthedocs.io/en/latest/index.html
+
+# Install ipykernel, if you want use jupyer notebook
+conda install ypykernel
+
+# (option) 
+python -m ipykernel install --user --name scCobra --display-name "scCobra"
+
 ``` 
