@@ -6,6 +6,8 @@ scCobra is a method for integrating multi-batch, multi-platform single-cell data
 
 # Installation
 
+**Step 1**: Create a conda environment for scCobra
+
 ```bash
 conda create -n scCobra python=3.8
 ``` 
