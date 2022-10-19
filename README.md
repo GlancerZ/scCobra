@@ -27,6 +27,7 @@ conda install -c conda-forge rpy2
 
 # Install scib
 pip install scib
+conda install -c bioconda bioconductor-scran # Use for normalization
 # You can install addtional packages: https://scib.readthedocs.io/en/latest/index.html
 
 # Install ipykernel, if you want use jupyer notebook
