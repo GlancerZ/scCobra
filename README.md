@@ -50,5 +50,5 @@ python -m ipykernel install --user --name scCobra --display-name "scCobra"
 * [Data](https://figshare.com/articles/dataset/Benchmarking_atlas-level_data_integration_in_single-cell_genomics_-_integration_task_datasets_Immune_and_pancreas_/12420968) used in the study
 
 ## Compared methods
-- [Harmony](https://github.com/immunogenomics/harmony) 1.0
+* [Harmony](https://github.com/immunogenomics/harmony) 1.0
 
