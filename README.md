@@ -1,10 +1,13 @@
-# scCobra 
+# scCobra: Contrastive cell embedding learning with domain adaptation for single-cell data integration 
   
-scCobra is a method for integrating multi-batch, multi-platform single-cell data 
+This repositorty contains the implementation of scCobra. scCobra is a method combined contrastive learning and domain adaptation for single-cell data integration. 
+
+![Workflow](https://raw.githubusercontent.com/GlancerZ/scCobra/main/Figure/single-cell-model.png)
+
 
 * [Data](https://figshare.com/articles/dataset/Benchmarking_atlas-level_data_integration_in_single-cell_genomics_-_integration_task_datasets_Immune_and_pancreas_/12420968) used in the study
 
-![Workflow](https://raw.githubusercontent.com/GlancerZ/scCobra/main/Figure/single-cell-model.png)
+
 
 
 # Installation
