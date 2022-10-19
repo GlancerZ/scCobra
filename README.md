@@ -1,6 +1,6 @@
 # scCobra: Contrastive cell embedding learning with domain adaptation for single-cell data integration 
   
-This repositorty contains the implementation of scCobra. scCobra is a method combined contrastive learning and domain adaptation for single-cell data integration. 
+scCobra is used for integrating single-cell data from different batches. scCobra is a two-step model. In phase 1,  we let the original data enter the random dropout layer twice independently, so each cell will get two augmented views. Then a weight-sharing encoder is employed to encode the cell inputs in two augmented views into reduced latent embeddings. Here we employ a set of domain-specific batch normalization layers to normalize the embeddings from various sources (experimental batches). Following that, the projection head maps the latent cell embeddings nonlinearly to the same joint reduced space (h) for contrastive learning. In phase 2, we used the generative adversarial networks (GAN) to fuse different experiment batches of cells. Specifically, we use an adversarial training strategy to alternately train the discriminator and encoder, aligning the gene expression distribution of datasets from different experimental batches. After training, we use the trained encoder to encode cells directly, and the resulting cell embeddings (z) will be used for downstream tasks, such as cell clustering or trajectory inference of the integrated dataset. See the supplementary method for the specific parameters of scCobra.
 
 ![Workflow](https://raw.githubusercontent.com/GlancerZ/scCobra/main/Figure/single-cell-model.png)
 
@@ -44,13 +44,6 @@ python -m ipykernel install --user --name scCobra --display-name "scCobra"
 ## Data resources
 
 * [Data](https://figshare.com/articles/dataset/Benchmarking_atlas-level_data_integration_in_single-cell_genomics_-_integration_task_datasets_Immune_and_pancreas_/12420968) used in the study
-
-## Compared methods
-
-- [Seurat v3](https://github.com/satijalab/seurat) (default method: CCA) 
-- [Scanorama](https://github.com/brianhie/scanorama)
-- [scVI](https://github.com/YosefLab/scVI)
-- [Harmony](https://github.com/slowkow/harmonypy) 
 
 ## How to use scCobra
 * [Tutorial](https://github.com/GlancerZ/scCobra/blob/main/pancreas_demo.ipynb)
