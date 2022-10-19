@@ -53,5 +53,5 @@ python -m ipykernel install --user --name scCobra --display-name "scCobra"
 - [Harmony](https://github.com/slowkow/harmonypy) 
 
 ## How to use scCobra
-[Tutorial](https://github.com/GlancerZ/scCobra/blob/main/pancreas_demo.ipynb)
+* [Tutorial](https://github.com/GlancerZ/scCobra/blob/main/pancreas_demo.ipynb)
 
