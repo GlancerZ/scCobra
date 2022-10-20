@@ -22,7 +22,7 @@ pip install scanpy==1.9.1
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 
 # Install R4.1, rpy2
-conda install r-base=4.1.3
+conda install -c conda-forge r-base=4.1.3
 conda install -c conda-forge rpy2
 
 # Install scib
