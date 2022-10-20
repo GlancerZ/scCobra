@@ -46,7 +46,12 @@ git clone https://github.com/GlancerZ/scCobra.git
 
 ## Data resources
 
-* [Data](https://figshare.com/articles/dataset/Benchmarking_atlas-level_data_integration_in_single-cell_genomics_-_integration_task_datasets_Immune_and_pancreas_/12420968) used in the study
+You can click the dataset name to download
+
+* [simulation dataset](https://figshare.com/ndownloader/files/33798263) contains 12097 cells with 9979 genes, has 7 cell types from 6 batches
+* [pancreas dataset](https://figshare.com/ndownloader/files/24539828) contains 16382 cells with 19093 genes, has 14 cell types from 9 batches
+* [Lung atlas dataset](https://figshare.com/ndownloader/files/24539942) contains 32472 cells with 15148 genes, has 17 cell types from 16 batches
+
 
 ## How to use scCobra
 * [Tutorial](https://github.com/GlancerZ/scCobra/blob/main/pancreas_demo.ipynb)
