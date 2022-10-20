@@ -40,6 +40,9 @@ python -m ipykernel install --user --name scCobra --display-name "scCobra"
 
 **Step 2**: Clone This Repo
 
+```bash
+git clone https://github.com/GlancerZ/scCobra.git
+```
 
 ## Data resources
 
