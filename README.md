@@ -53,6 +53,6 @@ You can click the dataset name to download
 * [Lung atlas dataset](https://figshare.com/ndownloader/files/24539942) contains 32472 cells with 15148 genes, has 17 cell types from 16 batches
 
 
-## How to use scCobra
+## Example pipeline
 * [Tutorial](https://github.com/GlancerZ/scCobra/blob/main/pancreas_demo.ipynb)
 
