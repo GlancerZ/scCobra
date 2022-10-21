@@ -1,6 +1,6 @@
-![Logo](https://raw.githubusercontent.com/GlancerZ/scCobra/main/Figure/scCobra_logo.png)
-:width: 400
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GlancerZ/scCobra/main/Figure/scCobra_logo.png" width="400">
+</p>
 
 # scCobra: Contrastive cell embedding learning with domain adaptation for single-cell data integration 
   
