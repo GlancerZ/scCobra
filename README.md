@@ -61,3 +61,6 @@ You can click the dataset name to download
 ## Example pipeline
 * [Tutorial](https://github.com/GlancerZ/scCobra/blob/main/pancreas_demo.ipynb)
 
+## Credits
+scCobra is jointly developed by Bowen Zhao and Yi Xiong from Shanghai Jiaotong University and Jun Ding from McGill University.
+
