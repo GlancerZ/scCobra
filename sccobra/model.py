@@ -78,7 +78,7 @@ class LabelSmoothingCrossEntropy(nn.Module):
         return loss*self.eps/c + (1-self.eps) * F.nll_loss(log_preds, target, reduction=self.reduction)
 
 class discriminator(nn.Module):
-    def __init__(self, input_dim):
+    def __init__(self, input_dim, domin_number):
         super(discriminator, self).__init__()
         
         self.loss = LabelSmoothingCrossEntropy()
@@ -88,7 +88,7 @@ class discriminator(nn.Module):
             nn.GELU(),
             nn.Linear(64, 16),
             nn.GELU(),
-            nn.Linear(16, 9)
+            nn.Linear(16, domin_number)
         )
     
     def forward(self, x, label):
