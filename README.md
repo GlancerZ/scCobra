@@ -21,20 +21,15 @@ conda activate scCobra
 
 # Install scanpy
 pip install scanpy==1.9.1
+pip install episcanpy
+pip install snapatac2
 
 # Install pytorch, choose profer version pytorch
 # pytorch installation reference: https://pytorch.org/get-started/locally/
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 
-# Install rpy2 and other packages for dealing with scATAC-data
+# Install rpy2 
 conda install -c conda-forge rpy2
-
-conda install -c bioconda r-signac
-conda install -c conda-forge r-seurat
-conda install -c bioconda bioconductor-genomeinfodb
-conda install -c bioconda bioconductor-ensdb.hsapiens.v75
-conda install -c bioconda bioconductor-ensdb.mmusculus.v79
-conda install -c conda-forge r-patchwork
 
 # Install scib
 pip install scib
