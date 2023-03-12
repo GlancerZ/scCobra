@@ -44,6 +44,7 @@ conda install -c bioconda bioconductor-scran # Use for normalization
 
 # Install ipykernel, if you want use jupyer notebook
 conda install ipykernel
+conda install irkernel
 
 # (option) 
 python -m ipykernel install --user --name scCobra --display-name "scCobra"
