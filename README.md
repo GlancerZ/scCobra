@@ -16,34 +16,14 @@ scCobra is designed for integrating single-cell data from different batches and/
 
 ```bash
 # Recommend you to use python above 3.8
-conda create -n scCobra python=3.8
-conda activate scCobra
+conda create -n scCobra conda-forge::python=3.9 bioconda::bioconductor-singlecellexperiment=1.20.0 conda-forge::r-seuratobject=4.1.3 conda-forge::r-seurat=4.3.0 bioconda::anndata2ri=1.1 conda-forge::rpy2=3.5.2 conda-forge::r-irkernel conda-forge::ipykernel
 
-# Install scanpy
-pip install scanpy==1.9.1
-pip install episcanpy
-pip install snapatac2
-
-# Install pytorch, choose profer version pytorch
-# pytorch installation reference: https://pytorch.org/get-started/locally/
-pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
-
-# Install rpy2 
-conda install -c conda-forge rpy2
-
-# Install scib
-pip install scib
-conda install -c bioconda bioconductor-scran # Use for normalization
+# Install scanpy scib episcanpy snapatac2
+pip install scanpy scib episcanpy snapatac2
 # You can install addtional packages: https://scib.readthedocs.io/en/latest/index.html
 
-
-# Install ipykernel, if you want use jupyer notebook
-conda install ipykernel
-conda install irkernel
-
-# (option) 
-python -m ipykernel install --user --name scCobra --display-name "scCobra"
-
+# Install pytorch
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ``` 
 
 **Step 2**: Clone This Repo
