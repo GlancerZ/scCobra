@@ -15,7 +15,7 @@ scCobra is designed for integrating single-cell data from different batches and/
 **Step 1**: Create a conda environment for scCobra
 
 ```bash
-# Recommend you to use python above 3.8
+# Recommend you to use python above 3.9
 conda create -n scCobra conda-forge::python=3.9 bioconda::bioconductor-singlecellexperiment=1.20.0 conda-forge::r-seuratobject=4.1.3 conda-forge::r-seurat=4.3.0 bioconda::anndata2ri=1.1 conda-forge::rpy2=3.5.2 conda-forge::r-irkernel conda-forge::ipykernel
 
 # Install scanpy scib episcanpy snapatac2
